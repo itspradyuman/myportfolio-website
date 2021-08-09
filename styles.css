@@ -222,6 +222,11 @@ body {
     margin: 0;
     box-sizing: border-box;
   }
+
+  body {
+    background-size: 2px 3px;
+    color: var(--primary-color);
+  }
   
   .card p {
     font-size: 11px;
