@@ -1,126 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title> 
-    <link href="styles.css" rel="stylesheet"/>
+    <title>Pradhuman</title>
+    <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
 </head>
+
 <body>
-    <h1>this is the main heading</h1>
-    <p>  come back here in a few days this is still in the making 
-        you can see more updates soon </p>
+    <div class="pagewrap">
+        <nav class="nav-bar">
+            <ul class="nav-list non-bulleted-list">
+                <li><a class="links active" href="./index.html">Home</a></li>
+                <li><a class="links" href="./projects.html">Projects</a></li>
+                <li><a class="links" href="./blogs.html">Blogs</a></li>
+                <li><a class="links" href="./blogs.html">meet a human</a></li>
+            </ul>
+        </nav>
 
-    <hr>
+        <div class="main">
+            <header class="header container">
+                <h1 class="header-heading">Hello,<br> I'm <span class="highlighted">Pradhuman</span>.</h1>
+                <p class="header-text">A beginner web developer, an intermediate programmer, and an expert learner.</p>
+            </header>
 
-    <h2>@typography</h2>
+            <section class="sections slight-gray">
+                <div class="container">
+                    <h1>About Pradhuman</h1>
+                    <p>Pradhuman is a Computer Science Under graduate from SIST (2021), Chennai. He is a community guy who loves being involved in communities and helping others.</p>
+                </div>
+            </section>
 
-    <h1> This is the biggest heading</h1>
-    <h2> This is the second heading</h2>
-    <p> Let me show you the normal test. This is free flowing and will wrap at the end like a 
-        pargraph
-    </p>
-    <small> this is relatively small text</small>
-    
-    <hr>
+            <section class="sections">
+                <div class="container">
+                    <h1>Technologies</h1>
+                    <p>Has some knowledge of C, CPP, Data Structures & Algorithms, and DBMS. Familiar with HTML5, CSS, JavaScript, React, Web Hosting, Machine Learning.</p>
+                </div>
+            </section>
 
-    <h2>@container</h2>
+            <section class="sections slight-gray">
+                <div class="container">
+                    <h1>Projects</h1>
+                    <p>I believe in learning by doing, and every time I learn a new thing, I create something interesting from it. Here are some of them.</p>
+                    <div style="text-align: center;"><a class="links" href="./projects.html"><button class="link-p btn">Browse Projects</button></a></div>
+                </div>
+            </section>
 
-    <h3> fluid container </h3>
-    <div class="container-fluid"> this is a fluid container and it will go till the end of the page</div>
+            <section class="sections">
+                <div class="container">
+                    <h1>Blogs</h1>
+                    <p>On a side note, I also write document my thoughts about the upcoming technologies, I also share my learning on a weekly basis, a newsletter format for the same will be made avaiable. Stay Tuned </p>
+                    <div style="text-align: center;"><a class="links" href="./blogs.html"><button class="link-s btn">Read Blogs</button></a></div>
 
-    <h3> center container </h3>
-    <div class="container
-    container-center"> this is a centered container and it will go till the specified width</div>
-<hr>
-    <h2> @links </h2>
+                </div>
+            </section>
 
-    <a href="https://www.youtube.com/"> First Link</a>
-    <a href="https://seth.blog/"> Second link</a>
+            
 
-<hr>
-    <h2> @lists </h2>
+        </div>
 
-    <h3> Unordered lists </h3> 
-    
-    <ul>
-        <li> Item one </li>
-        <li> Item two </li>
-        <li> Item three </li>
-    </ul>
-
-    <h3> unordered inline list </h3>
-
-    <ul> 
-        <li> Inline item one</li>
-        <li> Inline item two</li>
-        <li> Inline item three</li>
-    </ul>
-
-    <h3> reverse ordered list </h3>
-
-    <ol>
-        <li> first item </li>
-        <li> second item </li>
-        <li> third item </li>
-    </ol>
-
-    <hr/>
-
-    <h2> @nav </h2>
-
-    <nav>
-        <div> IamBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
-            </li> 
-            <li>
-                <a href="/">meet more human</a>
-            </li>
-            <li>
-                <a href="/">about</a>
-            </li>
-        </ul>
-
-    </nav>
-<hr>
-
-<h2> @header</h2>
-
-<header>
-
-    <img src="images/meet.svg"/>
-    <h1> heading inside hero</h1>
-</header>
-<hr>
-
-<h2> @section </h2>
-
-<section>
-    <h3>White section</h3>
-    <p> this will be havong white background</p>
-</section>
-
-<section>
-    <h3>Off White section</h3>
-    <p> this will have gray background</p>
-</section>
-
-<hr>
-
-<footer>
-    <div> Some small heading inside footer</div>
-    <ul>
-        <li> socialOne</li>
-        <li> socialTwo</li>
-        <li> socialThree</li>
-    </ul>
-</footer>
-
-
-
-    <div style="height: 30vh;"></div>
+        <footer class="footer">
+            <div>follow up with me on</div>
+            <ul class="nav-list non-bulleted-list">
+                <li>
+                    <a class="links" href="https://linkedin.com/in/itspradhuman" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a class="links" href="https://twitter.com/pradhum4n" target="_blank"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a class="links" href="https://instagram.com/pradhum4n" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
 </body>
+
 </html>
