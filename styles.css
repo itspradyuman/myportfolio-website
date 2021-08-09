@@ -156,16 +156,16 @@ body {
 }
 
 .footer {
-    background-color: var(--primary-color);
+    background-color: #f00048;
     padding: 1rem 0rem;
     text-align: center;
-    border-top-right-radius: 20px;
+    /**border-top-right-radius: 20px;**/
 }
 
 .footer div {
     font-weight: 400;
     font-size: 20px;
-    color: white;
+    color: #1e1f21;
 }
 
 .footer i {
