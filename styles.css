@@ -21,7 +21,7 @@ body {
 :root {
     --primary-color:#1e1f21;
     --white: white;
-    --off-white: #1e1f21;
+    --off-white:#EEEADE;
     --dark-gray: #1e1f21;
     --projects: #1e1f21;
     /* CCDAE3,779FB7 */
@@ -106,6 +106,7 @@ body {
 
 .sections p {
     padding: 0rem 0.5rem;
+    color: var(--off-white);
 }
 
 .sections {
@@ -113,7 +114,7 @@ body {
 }
 
 .slight-gray {
-    background-color: var(--off-white);
+    background-color: var(--primary-color);
 }
 
 .btn {
