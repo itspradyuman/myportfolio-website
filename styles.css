@@ -157,7 +157,7 @@ body {
 }
 
 .footer {
-    background-color: #f00048;
+    background-color: #DC2626;
     padding: 1rem 0rem;
     text-align: center;
     /**border-top-right-radius: 20px;**/
@@ -166,7 +166,7 @@ body {
 .footer div {
     font-weight: 400;
     font-size: 20px;
-    color: #1e1f21;
+    color: white;
 }
 
 .footer i {
