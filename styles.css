@@ -226,6 +226,7 @@ body {
   body {
     background-size: 2px 3px;
     color: var(--primary-color);
+    background-color: var(--primary-color);
   }
   
   .card p {
