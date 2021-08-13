@@ -177,7 +177,7 @@ body {
     align-items: center;
 }
 
-/** hower effect on dummy button **/
+/** hower effect on dummy card button **/
 
 .card {
     background-color: var(--background);
@@ -187,10 +187,10 @@ body {
     border: 3px solid var(--primary);
     padding: 10px;
     margin: 100px auto auto auto;
-    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
-                20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 
-                30px -30px 0 -3px var(--background), 30px -30px var(--orange), 
-                40px -40px 0 -3px var(--background), 40px -40px var(--red); 
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--darkred-1),
+                20px -20px 0 -3px var(--background), 20px -20px var(--darkred-2), 
+                30px -30px 0 -3px var(--background), 30px -30px var(--darkred-3), 
+                40px -40px 0 -3px var(--background), 40px -40px var(--darkred-4); 
     transition: box-shadow .20s, top .50s, left .35s;
     position: relative;
     top: 0;
@@ -201,20 +201,20 @@ body {
   .card:hover {
     top: -40px;
     left: 40px;
-    box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--green),
-                0 0 0 -3px var(--background), 0 0 0 0  var(--yellow),
-                0 0 0 -3px var(--background), 0 0 0 0  var(--orange),
-                0 0 0 -3px  var(--background), 0 0 0 0  var(--red);
+    box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--darkred-1),
+                0 0 0 -3px var(--background), 0 0 0 0  var(--darkred-2),
+                0 0 0 -3px var(--background), 0 0 0 0  var(--darkred-3),
+                0 0 0 -3px  var(--background), 0 0 0 0  var(--darkred-4);
   }
   
   :root {
     --primary: #f00048;
     --secondary: #22D2A0;
     --background: #1e1f21;
-    --green: #1FC11B;
-    --yellow: #FFD913;
-    --orange: #FF9C55;
-    --red: #555BFF;
+    --darkred-1: #D80040;
+    --darkred-2: #A80032;
+    --darkred-3: #780023;
+    --darkred-4: #480015;
   } 
   
   *{
