@@ -42,6 +42,11 @@ body {
     color: var(--white);
 }
 
+.links-footer {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 .nav-list {
     text-align: center;
     padding: 1rem;
@@ -162,13 +167,14 @@ body {
     background-color: #DC2626;
     padding: 1rem 0rem;
     text-align: center;
-    /**border-top-right-radius: 20px;**/
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
 }
 
 .footer div {
     font-weight: 400;
     font-size: 20px;
-    color: white;
+    color:var(--primary-color);
 }
 
 .footer i {
